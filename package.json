@@ -1,25 +1,37 @@
 {
   "name": "yuzi-ui-theme",
-  "version": "1.0.1",
-  "main": "/dist/themes-light.css",
-  "style": "/dist/themes-light.css",
+  "version": "1.0.2",
+  "main": "dist/themes-light.css",
+  "style": "dist/themes-light.css",
   "exports": {
     ".": {
       "import": "./dist/themes-light.css",
-      "require": ".//dist/themes-light.css"
+      "require": "./dist/themes-light.css"
     },
     "./scss": "./dist/themes-light.scss",
-    "./variables": ".//dist/variables.js"
+    "./variables": "./dist/variables.js",
+    "./tokens/colors.css": "./tokens/colors.css",
+    "./tokens/spacing.css": "./tokens/spacing.css",
+    "./tokens/radii.css": "./tokens/radii.css"
   },
   "files": [
-    "/dist/themes-light.css",
-    "/dist/themes-light.scss",
-    "/dist/variables.js",
-    "/tokens/",
-    "/base/"
+    "dist/themes-light.css",
+    "dist/themes-light.scss",
+    "dist/variables.js",
+    "tokens/",
+    "base/"
   ],
-  "description": "微前端项目通用主题样式包",
-  "keywords": ["css", "theme", "variables", "micro-frontend", "scss", "design-token"],
+  "description": "微前端项目通用主题样式包，支持 Design Token、CSS/SCSS/JS 多种引用方式，适用于 Vite/Vue 等现代前端项目。",
+  "keywords": [
+    "css",
+    "theme",
+    "variables",
+    "micro-frontend",
+    "scss",
+    "design-token",
+    "vite",
+    "vue"
+  ],
   "author": "xiangbo",
   "license": "MIT",
   "repository": {
