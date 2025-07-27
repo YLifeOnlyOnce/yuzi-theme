@@ -1,22 +1,22 @@
 {
   "name": "yuzi-ui-theme",
-  "version": "1.0.0",
-  "main": "shared-ui-commons/dist/themes-light.css",
-  "style": "shared-ui-commons/dist/themes-light.css",
+  "version": "1.0.1",
+  "main": "/dist/themes-light.css",
+  "style": "/dist/themes-light.css",
   "exports": {
     ".": {
-      "import": "./shared-ui-commons/dist/themes-light.css",
-      "require": "./shared-ui-commons/dist/themes-light.css"
+      "import": "./dist/themes-light.css",
+      "require": ".//dist/themes-light.css"
     },
-    "./scss": "./shared-ui-commons/dist/themes-light.scss",
-    "./variables": "./shared-ui-commons/dist/variables.js"
+    "./scss": "./dist/themes-light.scss",
+    "./variables": ".//dist/variables.js"
   },
   "files": [
-    "shared-ui-commons/dist/themes-light.css",
-    "shared-ui-commons/dist/themes-light.scss",
-    "shared-ui-commons/dist/variables.js",
-    "shared-ui-commons/tokens/",
-    "shared-ui-commons/base/"
+    "/dist/themes-light.css",
+    "/dist/themes-light.scss",
+    "/dist/variables.js",
+    "/tokens/",
+    "/base/"
   ],
   "description": "微前端项目通用主题样式包",
   "keywords": ["css", "theme", "variables", "micro-frontend", "scss", "design-token"],
@@ -24,11 +24,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xiangbo/ui-theme.git"
+    "url": "https://github.com/YLifeOnlyOnce/yuzi-theme.git"
   },
-  "homepage": "https://github.com/xiangbo/ui-theme#readme",
+  "homepage": "https://github.com/YLifeOnlyOnce/yuzi-theme#readme",
   "bugs": {
-    "url": "https://github.com/xiangbo/ui-theme/issues"
+    "url": "https://github.com/YLifeOnlyOnce/yuzi-theme/issues"
   },
   "engines": {
     "node": ">=14.0.0"
