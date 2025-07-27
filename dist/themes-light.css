@@ -1,0 +1,6 @@
+/* themes-light.css: 完整主题 */
+@import '../tokens/colors.css';
+@import '../tokens/spacing.css';
+@import '../tokens/radii.css';
+@import '../base/reset.css';
+@import '../base/typography.css';

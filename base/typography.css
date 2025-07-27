@@ -1,0 +1,13 @@
+/* typography.css: 字体规范 */
+:root {
+  --font-size-sm: 12px;
+  --font-size-md: 14px;
+  --line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --font-size-sm: 13px;
+    --font-size-md: 15px;
+  }
+}

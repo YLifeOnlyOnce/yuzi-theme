@@ -1,0 +1,6 @@
+// 推荐使用 Design Token 变量进行规范管理
+$spacing-xs: var(--spacing-xs, 4px);
+$spacing-sm: var(--spacing-sm, 8px);
+$spacing-md: var(--spacing-md, 16px);
+$spacing-lg: var(--spacing-lg, 24px);
+$spacing-xl: var(--spacing-xl, 32px);
