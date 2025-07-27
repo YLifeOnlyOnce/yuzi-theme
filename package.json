@@ -1,5 +1,5 @@
 {
-  "name": "ui-theme",
+  "name": "yuzi-ui-theme",
   "version": "1.0.0",
   "main": "shared-ui-commons/dist/themes-light.css",
   "style": "shared-ui-commons/dist/themes-light.css",
